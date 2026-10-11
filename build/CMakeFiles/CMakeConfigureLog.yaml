@@ -1,0 +1,1661 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/uname"
+      - "/opt/homebrew/opt/llvm/bin/uname"
+      - "/Users/jonah/Github/dotfiles/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:213 (message)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      The target system is: Generic -  - i686
+      The host system is: Darwin - 25.6.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/gmake"
+      - "/opt/homebrew/opt/llvm/bin/gmake"
+      - "/Users/jonah/Github/dotfiles/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/pkg/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/Applications/Ghostty.app/Contents/MacOS/gmake"
+      - "/Applications/Docker.app/Contents/Resources/bin/make"
+      - "/opt/homebrew/opt/llvm/bin/make"
+      - "/Users/jonah/Github/dotfiles/make"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-g++"
+    candidate_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-g++"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-g++"
+      - "/Users/jonah/Github/dotfiles/i686-elf-g++"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-g++"
+      - "/usr/local/bin/i686-elf-g++"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-g++"
+      - "/usr/bin/i686-elf-g++"
+      - "/bin/i686-elf-g++"
+      - "/usr/sbin/i686-elf-g++"
+      - "/sbin/i686-elf-g++"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-g++"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-g++"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-g++"
+      - "/pkg/env/global/bin/i686-elf-g++"
+      - "/Library/Apple/usr/bin/i686-elf-g++"
+    found: "/opt/homebrew/bin/i686-elf-g++"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /opt/homebrew/bin/i686-elf-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-ld: cannot find crt0.o: Invalid argument
+      /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-ld: cannot find -lstdc++: Invalid argument
+      /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-ld: cannot find -lm: Invalid argument
+      /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-ld: cannot find -lc: Invalid argument
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/i686-elf-g++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/jonah/Github/os/build/CMakeFiles/4.4.0/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-ar"
+      - "ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-strip"
+      - "strip"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-strip"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-ld"
+      - "ld"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-ld"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-nm"
+      - "nm"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-nm"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/opt/homebrew/bin/i686-elf-dlltool"
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-dlltool"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-dlltool"
+      - "/Users/jonah/Github/dotfiles/i686-elf-dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-dlltool"
+      - "/usr/local/bin/i686-elf-dlltool"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-dlltool"
+      - "/usr/bin/i686-elf-dlltool"
+      - "/bin/i686-elf-dlltool"
+      - "/usr/sbin/i686-elf-dlltool"
+      - "/sbin/i686-elf-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-dlltool"
+      - "/pkg/env/global/bin/i686-elf-dlltool"
+      - "/Library/Apple/usr/bin/i686-elf-dlltool"
+      - "/Applications/Ghostty.app/Contents/MacOS/i686-elf-dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/Applications/Docker.app/Contents/Resources/bin/dlltool"
+      - "/opt/homebrew/opt/llvm/bin/dlltool"
+      - "/Users/jonah/Github/dotfiles/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/pkg/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/Applications/Ghostty.app/Contents/MacOS/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    found: "/opt/homebrew/bin/i686-elf-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/opt/homebrew/bin/i686-elf-tapi"
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-tapi"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-tapi"
+      - "/Users/jonah/Github/dotfiles/i686-elf-tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-tapi"
+      - "/usr/local/bin/i686-elf-tapi"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-tapi"
+      - "/usr/bin/i686-elf-tapi"
+      - "/bin/i686-elf-tapi"
+      - "/usr/sbin/i686-elf-tapi"
+      - "/sbin/i686-elf-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-tapi"
+      - "/pkg/env/global/bin/i686-elf-tapi"
+      - "/Library/Apple/usr/bin/i686-elf-tapi"
+      - "/Applications/Ghostty.app/Contents/MacOS/i686-elf-tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/Applications/Docker.app/Contents/Resources/bin/tapi"
+      - "/opt/homebrew/opt/llvm/bin/tapi"
+      - "/Users/jonah/Github/dotfiles/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/pkg/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/Applications/Ghostty.app/Contents/MacOS/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-gcc-ar-16.2"
+      - "i686-elf-gcc-ar-16"
+      - "i686-elf-gcc-ar16"
+      - "i686-elf-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/opt/homebrew/bin/i686-elf-gcc-ar-16.2"
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-gcc-ar-16.2"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-gcc-ar-16.2"
+      - "/Users/jonah/Github/dotfiles/i686-elf-gcc-ar-16.2"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-gcc-ar-16.2"
+      - "/usr/local/bin/i686-elf-gcc-ar-16.2"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-gcc-ar-16.2"
+      - "/usr/bin/i686-elf-gcc-ar-16.2"
+      - "/bin/i686-elf-gcc-ar-16.2"
+      - "/usr/sbin/i686-elf-gcc-ar-16.2"
+      - "/sbin/i686-elf-gcc-ar-16.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-gcc-ar-16.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-gcc-ar-16.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-gcc-ar-16.2"
+      - "/pkg/env/global/bin/i686-elf-gcc-ar-16.2"
+      - "/Library/Apple/usr/bin/i686-elf-gcc-ar-16.2"
+      - "/Applications/Ghostty.app/Contents/MacOS/i686-elf-gcc-ar-16.2"
+      - "/opt/homebrew/bin/i686-elf-gcc-ar-16"
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-gcc-ar-16"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-gcc-ar-16"
+      - "/Users/jonah/Github/dotfiles/i686-elf-gcc-ar-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-gcc-ar-16"
+      - "/usr/local/bin/i686-elf-gcc-ar-16"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-gcc-ar-16"
+      - "/usr/bin/i686-elf-gcc-ar-16"
+      - "/bin/i686-elf-gcc-ar-16"
+      - "/usr/sbin/i686-elf-gcc-ar-16"
+      - "/sbin/i686-elf-gcc-ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-gcc-ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-gcc-ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-gcc-ar-16"
+      - "/pkg/env/global/bin/i686-elf-gcc-ar-16"
+      - "/Library/Apple/usr/bin/i686-elf-gcc-ar-16"
+      - "/Applications/Ghostty.app/Contents/MacOS/i686-elf-gcc-ar-16"
+      - "/opt/homebrew/bin/i686-elf-gcc-ar16"
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-gcc-ar16"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-gcc-ar16"
+      - "/Users/jonah/Github/dotfiles/i686-elf-gcc-ar16"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-gcc-ar16"
+      - "/usr/local/bin/i686-elf-gcc-ar16"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-gcc-ar16"
+      - "/usr/bin/i686-elf-gcc-ar16"
+      - "/bin/i686-elf-gcc-ar16"
+      - "/usr/sbin/i686-elf-gcc-ar16"
+      - "/sbin/i686-elf-gcc-ar16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-gcc-ar16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-gcc-ar16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-gcc-ar16"
+      - "/pkg/env/global/bin/i686-elf-gcc-ar16"
+      - "/Library/Apple/usr/bin/i686-elf-gcc-ar16"
+      - "/Applications/Ghostty.app/Contents/MacOS/i686-elf-gcc-ar16"
+    found: "/opt/homebrew/bin/i686-elf-gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:8 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "i686-elf-gcc-ranlib-16.2"
+      - "i686-elf-gcc-ranlib-16"
+      - "i686-elf-gcc-ranlib16"
+      - "i686-elf-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/opt/homebrew/bin/i686-elf-gcc-ranlib-16.2"
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-gcc-ranlib-16.2"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-gcc-ranlib-16.2"
+      - "/Users/jonah/Github/dotfiles/i686-elf-gcc-ranlib-16.2"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-gcc-ranlib-16.2"
+      - "/usr/local/bin/i686-elf-gcc-ranlib-16.2"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-gcc-ranlib-16.2"
+      - "/usr/bin/i686-elf-gcc-ranlib-16.2"
+      - "/bin/i686-elf-gcc-ranlib-16.2"
+      - "/usr/sbin/i686-elf-gcc-ranlib-16.2"
+      - "/sbin/i686-elf-gcc-ranlib-16.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-gcc-ranlib-16.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-gcc-ranlib-16.2"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-gcc-ranlib-16.2"
+      - "/pkg/env/global/bin/i686-elf-gcc-ranlib-16.2"
+      - "/Library/Apple/usr/bin/i686-elf-gcc-ranlib-16.2"
+      - "/Applications/Ghostty.app/Contents/MacOS/i686-elf-gcc-ranlib-16.2"
+      - "/opt/homebrew/bin/i686-elf-gcc-ranlib-16"
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-gcc-ranlib-16"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-gcc-ranlib-16"
+      - "/Users/jonah/Github/dotfiles/i686-elf-gcc-ranlib-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-gcc-ranlib-16"
+      - "/usr/local/bin/i686-elf-gcc-ranlib-16"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-gcc-ranlib-16"
+      - "/usr/bin/i686-elf-gcc-ranlib-16"
+      - "/bin/i686-elf-gcc-ranlib-16"
+      - "/usr/sbin/i686-elf-gcc-ranlib-16"
+      - "/sbin/i686-elf-gcc-ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-gcc-ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-gcc-ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-gcc-ranlib-16"
+      - "/pkg/env/global/bin/i686-elf-gcc-ranlib-16"
+      - "/Library/Apple/usr/bin/i686-elf-gcc-ranlib-16"
+      - "/Applications/Ghostty.app/Contents/MacOS/i686-elf-gcc-ranlib-16"
+      - "/opt/homebrew/bin/i686-elf-gcc-ranlib16"
+      - "/Applications/Docker.app/Contents/Resources/bin/i686-elf-gcc-ranlib16"
+      - "/opt/homebrew/opt/llvm/bin/i686-elf-gcc-ranlib16"
+      - "/Users/jonah/Github/dotfiles/i686-elf-gcc-ranlib16"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/i686-elf-gcc-ranlib16"
+      - "/usr/local/bin/i686-elf-gcc-ranlib16"
+      - "/System/Cryptexes/App/usr/bin/i686-elf-gcc-ranlib16"
+      - "/usr/bin/i686-elf-gcc-ranlib16"
+      - "/bin/i686-elf-gcc-ranlib16"
+      - "/usr/sbin/i686-elf-gcc-ranlib16"
+      - "/sbin/i686-elf-gcc-ranlib16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/i686-elf-gcc-ranlib16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/i686-elf-gcc-ranlib16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/i686-elf-gcc-ranlib16"
+      - "/pkg/env/global/bin/i686-elf-gcc-ranlib16"
+      - "/Library/Apple/usr/bin/i686-elf-gcc-ranlib16"
+      - "/Applications/Ghostty.app/Contents/MacOS/i686-elf-gcc-ranlib16"
+    found: "/opt/homebrew/bin/i686-elf-gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-4bHU5N"
+      binary: "/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-4bHU5N"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-4bHU5N'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02ae0/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02ae0.dir/build.make CMakeFiles/cmTC_02ae0.dir/build
+        Building CXX object CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/homebrew/bin/i686-elf-g++   -v -o CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/i686-elf-g++
+        Target: i686-elf
+        Configured with: ../configure --target=i686-elf --prefix=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0 --infodir=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/share/info/i686-elf --disable-nls --without-isl --without-headers --with-as=/opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-as --with-ld=/opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-ld --with-system-zlib --enable-languages=c,c++
+        Thread model: single
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/'
+         /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/cc1plus -quiet -v /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02ae0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccOR6Vgf.s
+        GNU C++20 (GCC) version 16.2.0 (i686-elf)
+        	compiled by GNU C version Apple LLVM 21.0.0 (clang-2100.1.1.101), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/include/c++/16.2.0"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/include/c++/16.2.0/i686-elf"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/include/c++/16.2.0/backward"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/sys-include"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include
+         /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include-fixed
+        End of search list.
+        Compiler executable checksum: 3c45519f179e3244e1ff7bd5c1902f19
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/'
+         /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-as -v -o CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccOR6Vgf.s
+        GNU assembler version 2.47 (i686-elf) using BFD version (GNU Binutils) 2.47.20260726
+        COMPILER_PATH=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/
+        LIBRARY_PATH=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_02ae0.a
+        /opt/homebrew/bin/cmake -P CMakeFiles/cmTC_02ae0.dir/cmake_clean_target.cmake
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02ae0.dir/link.txt --verbose=1
+        /opt/homebrew/bin/i686-elf-ar qc libcmTC_02ae0.a CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/homebrew/bin/i686-elf-ranlib libcmTC_02ae0.a
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include]
+          add: [/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include-fixed]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include] ==> [/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include]
+        collapse include dir [/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include-fixed] ==> [/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include-fixed]
+        implicit include dirs: [/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include;/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:8 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-4bHU5N']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02ae0/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02ae0.dir/build.make CMakeFiles/cmTC_02ae0.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/opt/homebrew/bin/i686-elf-g++   -v -o CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/i686-elf-g++]
+        ignore line: [Target: i686-elf]
+        ignore line: [Configured with: ../configure --target=i686-elf --prefix=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0 --infodir=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/share/info/i686-elf --disable-nls --without-isl --without-headers --with-as=/opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-as --with-ld=/opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-ld --with-system-zlib --enable-languages=c,c++]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/']
+        ignore line: [ /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/cc1plus -quiet -v /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02ae0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccOR6Vgf.s]
+        ignore line: [GNU C++20 (GCC) version 16.2.0 (i686-elf)]
+        ignore line: [	compiled by GNU C version Apple LLVM 21.0.0 (clang-2100.1.1.101)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/include/c++/16.2.0"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/include/c++/16.2.0/i686-elf"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/include/c++/16.2.0/backward"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/sys-include"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/../../../../i686-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include]
+        ignore line: [ /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3c45519f179e3244e1ff7bd5c1902f19]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/']
+        ignore line: [ /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-as -v -o CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccOR6Vgf.s]
+        ignore line: [GNU assembler version 2.47 (i686-elf) using BFD version (GNU Binutils) 2.47.20260726]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_02ae0.a]
+        ignore line: [/opt/homebrew/bin/cmake -P CMakeFiles/cmTC_02ae0.dir/cmake_clean_target.cmake]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02ae0.dir/link.txt --verbose=1]
+        ignore line: [/opt/homebrew/bin/i686-elf-ar qc libcmTC_02ae0.a CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/opt/homebrew/bin/i686-elf-ranlib libcmTC_02ae0.a]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:15 (find_program)"
+    mode: "program"
+    variable: "NASM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nasm"
+    candidate_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/nasm"
+      - "/opt/homebrew/opt/llvm/bin/nasm"
+      - "/Users/jonah/Github/dotfiles/nasm"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/nasm"
+      - "/usr/local/bin/nasm"
+      - "/System/Cryptexes/App/usr/bin/nasm"
+      - "/usr/bin/nasm"
+      - "/bin/nasm"
+      - "/usr/sbin/nasm"
+      - "/sbin/nasm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/nasm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/nasm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/nasm"
+      - "/pkg/env/global/bin/nasm"
+      - "/Library/Apple/usr/bin/nasm"
+    found: "/opt/homebrew/bin/nasm"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "CMakeLists.txt:16 (find_program)"
+    mode: "program"
+    variable: "QEMU"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "qemu-system-i386"
+    candidate_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/"
+      - "/opt/homebrew/opt/llvm/bin/"
+      - "/Users/jonah/Github/dotfiles/"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/opt/homebrew/bin/"
+      - "/Applications/Ghostty.app/Contents/MacOS/"
+    searched_directories:
+      - "/Applications/Docker.app/Contents/Resources/bin/qemu-system-i386"
+      - "/opt/homebrew/opt/llvm/bin/qemu-system-i386"
+      - "/Users/jonah/Github/dotfiles/qemu-system-i386"
+      - "/Library/Frameworks/Python.framework/Versions/3.14/bin/qemu-system-i386"
+      - "/usr/local/bin/qemu-system-i386"
+      - "/System/Cryptexes/App/usr/bin/qemu-system-i386"
+      - "/usr/bin/qemu-system-i386"
+      - "/bin/qemu-system-i386"
+      - "/usr/sbin/qemu-system-i386"
+      - "/sbin/qemu-system-i386"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/qemu-system-i386"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/qemu-system-i386"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/qemu-system-i386"
+      - "/pkg/env/global/bin/qemu-system-i386"
+      - "/Library/Apple/usr/bin/qemu-system-i386"
+    found: "/opt/homebrew/bin/qemu-system-i386"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/opt/homebrew/bin"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
+        - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
+        - "/Applications/Ghostty.app/Contents/MacOS"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+...

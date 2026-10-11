@@ -1,0 +1,5 @@
+/Users/jonah/Github/os/build/CMakeFiles/kernel.dir
+/Users/jonah/Github/os/build/CMakeFiles/os.dir
+/Users/jonah/Github/os/build/CMakeFiles/run.dir
+/Users/jonah/Github/os/build/CMakeFiles/edit_cache.dir
+/Users/jonah/Github/os/build/CMakeFiles/rebuild_cache.dir

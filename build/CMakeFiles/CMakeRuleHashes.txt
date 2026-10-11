@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+0ae345169604c4640e2e1af0032d7796 CMakeFiles/os
+8b1fce35b554a273161269c1bd10eecb CMakeFiles/run
+748b9b3f4002d70832900da51b810c41 exe/boot.bin
+7eeb0e274bf495a7f81ec25ef36a5592 exe/entry.o
+62509801bc6dd53d276d41b203a982c7 exe/files.tar
+ca8fa2bc6e76971ffa6bbed117493702 exe/kernel.bin
+153d74ec2e234e2fefe6efa43e187784 exe/os.img
+dce3db18938f885b925217a5614844ca os.img
