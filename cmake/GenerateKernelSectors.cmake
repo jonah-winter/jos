@@ -1,0 +1,11 @@
+if(NOT DEFINED KERNEL_BIN OR NOT DEFINED OUTPUT_FILE)
+  message(FATAL_ERROR "KERNEL_BIN and OUTPUT_FILE are required")
+endif()
+
+file(SIZE "${KERNEL_BIN}" KERNEL_SIZE)
+
+math(EXPR KERNEL_SECTORS "(${KERNEL_SIZE} + 511) / 512")
+
+file(WRITE "${OUTPUT_FILE}" "%define KERNEL_SECTORS ${KERNEL_SECTORS}\n")
+
+message(STATUS "Kernel size: ${KERNEL_SIZE} bytes, ${KERNEL_SECTORS} sectors")

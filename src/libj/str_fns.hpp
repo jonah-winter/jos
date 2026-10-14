@@ -25,7 +25,7 @@ inline constexpr int strcmp(const char* s1, const char* s2) {
   return static_cast<unsigned char>(*s1) - static_cast<unsigned char>(*s2);
 }
 
-inline constexpr void strcpy(char* dest, const char* str, unsigned len) {
+inline constexpr void strncpy(char* dest, const char* str, unsigned len) {
   unsigned i=0;
   while(str[i]!='\0' && i<(len-1)) {
     dest[i] = str[i];
@@ -41,10 +41,19 @@ inline constexpr void strcat(char* dest, const char* str, unsigned len) {
   }
   unsigned j=0;
   while(str[i]!='\0' && (i+j)<(len-1)) {
-    dest[i+j] = str[i];
+    dest[i+j] = str[j];
     ++j;
   }
   dest[i+j] = '\0';
+}
+
+inline void ld_hex(unsigned char byte) {
+  static const char hex[] = "0123456789ABCDEF";
+  char res[3];
+  res[0] = hex[(byte>>4) & 0x0F];
+  res[1] = hex[byte & 0x0F];
+  res[2] = '\0';
+  jos::ld_str(res);
 }
 } // namespace jstd
 #endif // UTIL_H_

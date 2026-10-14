@@ -1,3 +1,4 @@
+%include "kernel_sectors.inc"
 bits 16
 org 0x7C00
 
@@ -15,7 +16,7 @@ _start:
   xor bx, bx
 
   mov ah, 0x02
-  mov al, 0x0A
+  mov al, KERNEL_SECTORS
   mov ch, 0x00
   mov cl, 0x02
   mov dh, 0x00

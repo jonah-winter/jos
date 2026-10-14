@@ -50,6 +50,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -144,6 +147,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -221,6 +227,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -266,6 +275,9 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
@@ -336,6 +348,9 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
@@ -423,6 +438,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -482,6 +500,9 @@ events:
     found: "/opt/homebrew/bin/i686-elf-ranlib"
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
@@ -547,6 +568,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -606,6 +630,9 @@ events:
     found: "/opt/homebrew/bin/i686-elf-ld"
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
@@ -671,6 +698,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -730,6 +760,9 @@ events:
     found: "/opt/homebrew/bin/i686-elf-objdump"
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
@@ -795,6 +828,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -854,6 +890,9 @@ events:
     found: "/opt/homebrew/bin/i686-elf-readelf"
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
@@ -954,6 +993,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1013,6 +1055,9 @@ events:
     found: "/opt/homebrew/bin/i686-elf-addr2line"
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
@@ -1110,6 +1155,9 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
@@ -1229,6 +1277,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1345,6 +1396,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1372,8 +1426,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-4bHU5N"
-      binary: "/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-4bHU5N"
+      source: "/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-xowLro"
+      binary: "/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-xowLro"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1384,12 +1438,12 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-4bHU5N'
+        Change Dir: '/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-xowLro'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02ae0/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02ae0.dir/build.make CMakeFiles/cmTC_02ae0.dir/build
-        Building CXX object CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj
-        /opt/homebrew/bin/i686-elf-g++   -v -o CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00dab/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_00dab.dir/build.make CMakeFiles/cmTC_00dab.dir/build
+        Building CXX object CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/homebrew/bin/i686-elf-g++   -v -o CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/opt/homebrew/bin/i686-elf-g++
         Target: i686-elf
@@ -1397,8 +1451,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/'
-         /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/cc1plus -quiet -v /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02ae0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccOR6Vgf.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_00dab.dir/'
+         /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/cc1plus -quiet -v /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_00dab.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccfIkHmj.s
         GNU C++20 (GCC) version 16.2.0 (i686-elf)
         	compiled by GNU C version Apple LLVM 21.0.0 (clang-2100.1.1.101), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -1413,17 +1467,17 @@ events:
          /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 3c45519f179e3244e1ff7bd5c1902f19
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/'
-         /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-as -v -o CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccOR6Vgf.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_00dab.dir/'
+         /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-as -v -o CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccfIkHmj.s
         GNU assembler version 2.47 (i686-elf) using BFD version (GNU Binutils) 2.47.20260726
         COMPILER_PATH=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/
         LIBRARY_PATH=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX static library libcmTC_02ae0.a
-        /opt/homebrew/bin/cmake -P CMakeFiles/cmTC_02ae0.dir/cmake_clean_target.cmake
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02ae0.dir/link.txt --verbose=1
-        /opt/homebrew/bin/i686-elf-ar qc libcmTC_02ae0.a CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj
-        /opt/homebrew/bin/i686-elf-ranlib libcmTC_02ae0.a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX static library libcmTC_00dab.a
+        /opt/homebrew/bin/cmake -P CMakeFiles/cmTC_00dab.dir/cmake_clean_target.cmake
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00dab.dir/link.txt --verbose=1
+        /opt/homebrew/bin/i686-elf-ar qc libcmTC_00dab.a CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj
+        /opt/homebrew/bin/i686-elf-ranlib libcmTC_00dab.a
         
       exitCode: 0
   -
@@ -1454,12 +1508,12 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-4bHU5N']
+        ignore line: [Change Dir: '/Users/jonah/Github/os/build/CMakeFiles/CMakeScratch/TryCompile-xowLro']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_02ae0/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02ae0.dir/build.make CMakeFiles/cmTC_02ae0.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/opt/homebrew/bin/i686-elf-g++   -v -o CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00dab/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_00dab.dir/build.make CMakeFiles/cmTC_00dab.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/opt/homebrew/bin/i686-elf-g++   -v -o CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/opt/homebrew/bin/i686-elf-g++]
         ignore line: [Target: i686-elf]
@@ -1467,8 +1521,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/']
-        ignore line: [ /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/cc1plus -quiet -v /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02ae0.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccOR6Vgf.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_00dab.dir/']
+        ignore line: [ /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/cc1plus -quiet -v /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_00dab.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=pentiumpro -version -o /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccfIkHmj.s]
         ignore line: [GNU C++20 (GCC) version 16.2.0 (i686-elf)]
         ignore line: [	compiled by GNU C version Apple LLVM 21.0.0 (clang-2100.1.1.101)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -1483,17 +1537,17 @@ events:
         ignore line: [ /opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 3c45519f179e3244e1ff7bd5c1902f19]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/']
-        ignore line: [ /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-as -v -o CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccOR6Vgf.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_00dab.dir/']
+        ignore line: [ /opt/homebrew/opt/i686-elf-binutils/bin/i686-elf-as -v -o CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/05/x50808fs54g8rth6mrhd816m0000gn/T//ccfIkHmj.s]
         ignore line: [GNU assembler version 2.47 (i686-elf) using BFD version (GNU Binutils) 2.47.20260726]
         ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/libexec/gcc/i686-elf/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/:/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/]
         ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/i686-elf-gcc/16.2.0/lib/gcc/i686-elf/16.2.0/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX static library libcmTC_02ae0.a]
-        ignore line: [/opt/homebrew/bin/cmake -P CMakeFiles/cmTC_02ae0.dir/cmake_clean_target.cmake]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02ae0.dir/link.txt --verbose=1]
-        ignore line: [/opt/homebrew/bin/i686-elf-ar qc libcmTC_02ae0.a CMakeFiles/cmTC_02ae0.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [/opt/homebrew/bin/i686-elf-ranlib libcmTC_02ae0.a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=pentiumpro' '-dumpdir' 'CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX static library libcmTC_00dab.a]
+        ignore line: [/opt/homebrew/bin/cmake -P CMakeFiles/cmTC_00dab.dir/cmake_clean_target.cmake]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00dab.dir/link.txt --verbose=1]
+        ignore line: [/opt/homebrew/bin/i686-elf-ar qc libcmTC_00dab.a CMakeFiles/cmTC_00dab.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/opt/homebrew/bin/i686-elf-ranlib libcmTC_00dab.a]
         ignore line: []
         ignore line: []
         implicit libs: []
@@ -1505,7 +1559,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:15 (find_program)"
+      - "CMakeLists.txt:16 (find_program)"
     mode: "program"
     variable: "NASM"
     description: "Path to a program."
@@ -1559,6 +1613,9 @@ events:
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Library/Frameworks/Python.framework/Versions/3.14/bin"
         - "/usr/local/bin"
         - "/System/Cryptexes/App/usr/bin"
@@ -1583,7 +1640,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:16 (find_program)"
+      - "CMakeLists.txt:17 (find_program)"
     mode: "program"
     variable: "QEMU"
     description: "Path to a program."
@@ -1634,6 +1691,9 @@ events:
     found: "/opt/homebrew/bin/qemu-system-i386"
     search_context:
       ENV{PATH}:
+        - "/Applications/Docker.app/Contents/Resources/bin"
+        - "/opt/homebrew/opt/llvm/bin"
+        - "/Users/jonah/Github/dotfiles"
         - "/Applications/Docker.app/Contents/Resources/bin"
         - "/opt/homebrew/opt/llvm/bin"
         - "/Users/jonah/Github/dotfiles"

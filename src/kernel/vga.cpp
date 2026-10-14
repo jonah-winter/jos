@@ -84,7 +84,7 @@ void ld_ch(char ch) {
 void ld_str(const char* str) {
   int i = 0;
   while(str[i] != '\0') {
-    vga_ld(str[i], 0x0F);
+    ld_ch(str[i]);
     ++i;
   }
 }
@@ -117,5 +117,18 @@ void scroll_down(void) {
     VGA[i+1] = DEFAULT_COLOR;
   }
   cursor_y = HEIGHT-1;
+}
+
+void ld_hex_byte(unsigned char byte) {
+  const char hex_chars[] = "0123456789ABCDEF";
+  unsigned char lo = (byte >> 4) & 0x0F;
+  unsigned char hi = byte & 0x0F;
+  char str[5];
+  str[0] = '0';
+  str[1] = 'x';
+  str[2] = hex_chars[hi];
+  str[3] = hex_chars[lo];
+  str[4] = '\0';
+  jos::ld_str(str);
 }
 } // namespace jos

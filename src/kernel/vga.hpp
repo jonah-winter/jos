@@ -16,5 +16,6 @@ void set_csr_pos(int x, int y);
 void dsbl_csr(void);
 void enbl_csr(void);
 void scroll_down(void);
+void ld_hex_byte(unsigned char byte);
 } // namespace jos
 #endif // VGA_H_

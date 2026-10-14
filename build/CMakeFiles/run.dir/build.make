@@ -67,8 +67,9 @@ include CMakeFiles/run.dir/compiler_depend.make
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run:
-	/opt/homebrew/bin/cmake -E touch /Users/jonah/Github/os/build/exe/disk.img
-	/opt/homebrew/bin/qemu-system-i386 -drive format=raw,file=/Users/jonah/Github/os/build/exe/os.img -drive format=raw,file=/Users/jonah/Github/os/build/exe/disk.img,if=ide,index=1 -device isa-debug-exit,iobase=0x501,iosize=0x04
+	/opt/homebrew/bin/cmake -E make_directory /Users/jonah/Github/os/build/exe
+	sh -c "if [ ! -f '/Users/jonah/Github/os/build/exe/disk.img' ]; then dd if=/dev/zero of='/Users/jonah/Github/os/build/exe/disk.img' bs=512 count=2048; fi"
+	/opt/homebrew/bin/qemu-system-i386 -drive format=raw,file=/Users/jonah/Github/os/build/exe/os.img,if=ide,index=0 -drive format=raw,file=/Users/jonah/Github/os/build/exe/disk.img,if=ide,index=1 -device isa-debug-exit,iobase=0x501,iosize=0x04
 
 CMakeFiles/run.dir/codegen:
 .PHONY : CMakeFiles/run.dir/codegen

@@ -34,6 +34,8 @@ add_executable(kernel
   src/kernel/kernel.cpp
   src/kernel/vga.cpp
   src/kernel/keyboard.cpp
+  src/kernel/ide.cpp
+  src/libj/memory.cpp
   "${OUT}/entry.o"
   "${OUT}/io.o"
 )
@@ -68,12 +70,27 @@ set_target_properties(kernel PROPERTIES
   RUNTIME_OUTPUT_DIRECTORY "${OUT}"
 )
 
+set(KERNEL_SECTORS_INC "${OUT}/kernel_sectors.inc")
+add_custom_command(
+  OUTPUT "${KERNEL_SECTORS_INC}"
+  COMMAND "${CMAKE_COMMAND}"
+    "-DKERNEL_BIN=${OUT}/kernel.bin"
+    "-DOUTPUT_FILE=${KERNEL_SECTORS_INC}"
+    -P "${CMAKE_SOURCE_DIR}/cmake/GenerateKernelSectors.cmake"
+  DEPENDS
+    "${OUT}/kernel.bin"
+    "${CMAKE_SOURCE_DIR}/cmake/GenerateKernelSectors.cmake"
+  VERBATIM
+)
+
 add_custom_command(
   OUTPUT "${OUT}/boot.bin"
-  COMMAND "${NASM}" -f bin
+  COMMAND "${NASM}" -I "${OUT}/" -f bin
     "${CMAKE_SOURCE_DIR}/src/boot/boot.asm"
     -o "${OUT}/boot.bin"
-  DEPENDS src/boot/boot.asm
+  DEPENDS
+    src/boot/boot.asm
+    "${KERNEL_SECTORS_INC}"
   VERBATIM
 )
 
@@ -97,11 +114,12 @@ add_custom_command(
   VERBATIM
 )
 add_custom_target(os ALL DEPENDS "${IMAGE}")
-
 add_custom_target(run
-  COMMAND ${CMAKE_COMMAND} -E touch "${DISK}"
-  COMMAND "${QEMU}" 
-    -drive "format=raw,file=${IMAGE}"                    
+  COMMAND "${CMAKE_COMMAND}" -E make_directory "${OUT}"
+  COMMAND sh -c
+    "if [ ! -f '${DISK}' ]; then dd if=/dev/zero of='${DISK}' bs=512 count=2048; fi"
+  COMMAND "${QEMU}"
+    -drive "format=raw,file=${IMAGE},if=ide,index=0"
     -drive "format=raw,file=${DISK},if=ide,index=1"
     -device "isa-debug-exit,iobase=0x501,iosize=0x04"
   DEPENDS os

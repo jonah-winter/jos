@@ -2,7 +2,7 @@
 #include "keyboard.hpp"
 
 namespace jos {
-constexpr sc_matrix scm = []() constexpr {
+static constexpr sc_matrix scm = []() constexpr {
     sc_matrix matrix{};
 
     matrix.data[0x02] = '1';
@@ -66,14 +66,14 @@ constexpr sc_matrix scm = []() constexpr {
 const char* sc_map = scm.data;
 
 unsigned char kbd_rd_sc() {
-  while((inb(0x64) & 1) == 0) {}
+  while ((inb(0x64) & 1) == 0) { asm volatile ("pause"); }
   return inb(0x60);
 }
 
 char get_ch_inp() {
-  // scancode
   unsigned char sc = kbd_rd_sc();
-  if(sc & 0x80) { return 0; }
+  if (sc & 0x80) { return 0; }
+  if (sc >= 128 || sc_map[sc] == '\0') { return 0; }
   return sc_map[sc];
 }
 } // namespace jos

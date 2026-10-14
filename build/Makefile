@@ -155,6 +155,30 @@ run/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/run.dir/build.make CMakeFiles/run.dir/build
 .PHONY : run/fast
 
+src/kernel/ide.obj: src/kernel/ide.cpp.obj
+.PHONY : src/kernel/ide.obj
+
+# target to build an object file
+src/kernel/ide.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/src/kernel/ide.cpp.obj
+.PHONY : src/kernel/ide.cpp.obj
+
+src/kernel/ide.i: src/kernel/ide.cpp.i
+.PHONY : src/kernel/ide.i
+
+# target to preprocess a source file
+src/kernel/ide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/src/kernel/ide.cpp.i
+.PHONY : src/kernel/ide.cpp.i
+
+src/kernel/ide.s: src/kernel/ide.cpp.s
+.PHONY : src/kernel/ide.s
+
+# target to generate assembly for a file
+src/kernel/ide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/src/kernel/ide.cpp.s
+.PHONY : src/kernel/ide.cpp.s
+
 src/kernel/kernel.obj: src/kernel/kernel.cpp.obj
 .PHONY : src/kernel/kernel.obj
 
@@ -227,6 +251,30 @@ src/kernel/vga.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/src/kernel/vga.cpp.s
 .PHONY : src/kernel/vga.cpp.s
 
+src/libj/memory.obj: src/libj/memory.cpp.obj
+.PHONY : src/libj/memory.obj
+
+# target to build an object file
+src/libj/memory.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/src/libj/memory.cpp.obj
+.PHONY : src/libj/memory.cpp.obj
+
+src/libj/memory.i: src/libj/memory.cpp.i
+.PHONY : src/libj/memory.i
+
+# target to preprocess a source file
+src/libj/memory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/src/libj/memory.cpp.i
+.PHONY : src/libj/memory.cpp.i
+
+src/libj/memory.s: src/libj/memory.cpp.s
+.PHONY : src/libj/memory.s
+
+# target to generate assembly for a file
+src/libj/memory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kernel.dir/build.make CMakeFiles/kernel.dir/src/libj/memory.cpp.s
+.PHONY : src/libj/memory.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -238,6 +286,9 @@ help:
 	@echo "... os"
 	@echo "... run"
 	@echo "... kernel"
+	@echo "... src/kernel/ide.obj"
+	@echo "... src/kernel/ide.i"
+	@echo "... src/kernel/ide.s"
 	@echo "... src/kernel/kernel.obj"
 	@echo "... src/kernel/kernel.i"
 	@echo "... src/kernel/kernel.s"
@@ -247,6 +298,9 @@ help:
 	@echo "... src/kernel/vga.obj"
 	@echo "... src/kernel/vga.i"
 	@echo "... src/kernel/vga.s"
+	@echo "... src/libj/memory.obj"
+	@echo "... src/libj/memory.i"
+	@echo "... src/libj/memory.s"
 .PHONY : help
 
 

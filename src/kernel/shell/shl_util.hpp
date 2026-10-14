@@ -2,31 +2,39 @@
 #define SHL_UTIL_HPP_
 
 #include "libj/exception.hpp"
+#include "libj/memory.hpp"
+#include "macros.hpp"
 
 namespace jos {
 struct parse_args {
-public:
-  int args_cnt;
-  static constexpr unsigned MAX_ARGS = 2;
+  unsigned args_cnt;
+  static constexpr unsigned MAX_ARGS = 4;
   static constexpr unsigned MAX_ARG_SIZE = 128;
   char args[MAX_ARGS][MAX_ARG_SIZE] = {0};
 
   explicit parse_args(const char buffer[]) 
     : args_cnt{0} 
   {
-    int  i{0};
-    int ai{0};
-    int ci{0};
-    while(buffer[i] != '\0' && ai < MAX_ARGS) {
-      if(buffer[i] == ' ') {
-        args[ai][ci] = '\0';
-        ai++;
-        ci=0;
-      } else if(ci < (MAX_ARG_SIZE-1)) {
-        args[ai][ci] = buffer[i];
-        ci++;
-      }
+    unsigned i{0}, ai{0}, ci{0};
+    bool in_quotes{false};
+    while (buffer[i] != '\0' && ai < MAX_ARGS) {
+      char c = buffer[i];
       i++;
+      if(c == '"') { in_quotes = !in_quotes; continue; }
+      if(c == ' ' && !in_quotes) {
+        if(ci > 0) { 
+          args[ai][ci] = '\0';
+          ai++;
+          ci = 0;
+          continue;
+        }
+      }
+      if(ci < MAX_ARG_SIZE-1) {
+        args[ai][ci] = c;
+        ci++;
+      } else {
+        args[ai][MAX_ARG_SIZE-1] = '\0';
+      }
     }
     if (ci > 0 && ai < MAX_ARGS) {
       args[ai][ci] = '\0';
@@ -34,30 +42,9 @@ public:
     }
     args_cnt = ai;
   }
-};
-
-template<unsigned int Index, unsigned int Total>
-struct auto_switch;
-
-template<unsigned int Index, unsigned int Total>
-struct auto_switch {
-  template<typename S>
-  static auto& get(unsigned i, S& lambdas) {
-    using ftype = decltype(lambdas.placeholder);
-    if(i==Index) { return reinterpret_cast<ftype*>(&lambdas)[Index]; }
-    return auto_switch<Index+1, Total>::get(i, lambdas); 
-  }
-};
-
-template<unsigned int Total>
-struct auto_switch<Total-1, Total> {
-  template<typename S>
-  static auto& get(unsigned i, S& lambdas) {
-    using ftype = decltype(lambdas.placeholder);
-    if(i==Total-1) { return reinterpret_cast<ftype*>(&lambdas)[Total-1]; }
-    index_out_of_bounds("index given is greater than or equal to total");
-    // to make compiler happy
-    return *reinterpret_cast<ftype*>(0);
+  [[nodiscard]] const char* get_arg(int i) const {
+    if (i >= 0 && i < args_cnt) { return args[i]; }
+    return "";
   }
 };
 } // namespace jos

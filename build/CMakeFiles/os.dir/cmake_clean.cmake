@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/os"
   "exe/boot.bin"
   "exe/kernel.bin"
+  "exe/kernel_sectors.inc"
   "exe/os.img"
 )
 

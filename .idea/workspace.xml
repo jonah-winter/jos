@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -25,7 +25,59 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d3cacaf-d9c2-4ca5-a84c-cf4de66b0c92" name="Changes" comment="" />
+    <list default="true" id="2d3cacaf-d9c2-4ca5-a84c-cf4de66b0c92" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/4.4.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/4.4.0/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/src/kernel/kernel.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/src/kernel/kernel.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/src/kernel/kernel.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/src/kernel/kernel.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/src/kernel/vga.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/kernel.dir/src/kernel/vga.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/os.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/os.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/os.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/os.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/os.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/os.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/run.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/build/CMakeFiles/run.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe/boot.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe/boot.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe/disk.img" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe/disk.img" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe/files.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe/kernel.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe/kernel.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe/kernel.elf" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe/kernel.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/exe/os.img" beforeDir="false" afterPath="$PROJECT_DIR$/build/exe/os.img" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/os.img" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boot/boot.asm" beforeDir="false" afterPath="$PROJECT_DIR$/src/boot/boot.asm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/kernel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/kernel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/keyboard.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/keyboard.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/macros.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/macros.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/quit.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/quit.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/shell/shl_fns.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/shell/shl_fns.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/shell/shl_util.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/shell/shl_util.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/vga.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/vga.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kernel/vga.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/kernel/vga.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libj/exception.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libj/exception.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libj/functional.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libj/functional.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libj/str_fns.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/libj/str_fns.hpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,16 +87,19 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2026" />
     <option name="minorVersion" value="2.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3KYx5SANjThAUWMXIHjnzFQ8XL0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,17 +109,21 @@
   "keyToString": {
     "CMake Application.kernel.executor": "Run",
     "CMake Application.os.executor": "Run",
+    "CMake Application.run.executor": "Run",
     "CidrDebugProfileConversion": "true",
     "Embedded GDB Server.kernel.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/jonah/Github/os",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -74,7 +133,7 @@
     "settings.editor.selected.configurable": "CLionExternalConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Custom Build Application.qemu">
+  <component name="RunManager" selected="CMake Application.run">
     <configuration name="qemu" type="CLionExternalRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-d format=raw" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" RUN_PATH="/opt/homebrew/bin/qemu-system-i386">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -85,7 +144,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jos" TARGET_NAME="run" CONFIG_NAME="Debug">
+    <configuration name="run" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="jos" TARGET_NAME="run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="jos" RUN_TARGET_NAME="kernel">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -95,24 +154,24 @@
       <item itemvalue="Custom Build Application.qemu" />
     </list>
   </component>
-  <component name="SelectedDebugProfileService"><![CDATA[{
-  "profileIdByStamp": [
+  <component name="SelectedDebugProfileService">{
+  &quot;profileIdByStamp&quot;: [
     {
-      "first": {
-        "##RUN_CONFIGURATION##": "Custom Build Application.qemu"
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;Custom Build Application.qemu&quot;
       },
-      "second": "1e690bd3-64b7-427a-8394-c316432ff0a3"
+      &quot;second&quot;: &quot;1e690bd3-64b7-427a-8394-c316432ff0a3&quot;
     },
     {
-      "first": {
-        "##RUN_CONFIGURATION##": "CMake Application.run",
-        "cmake": "CMakeBuildProfile:Debug"
+      &quot;first&quot;: {
+        &quot;##RUN_CONFIGURATION##&quot;: &quot;CMake Application.run&quot;,
+        &quot;cmake&quot;: &quot;CMakeBuildProfile:Debug&quot;
       },
-      "second": "1e690bd3-64b7-427a-8394-c316432ff0a3"
+      &quot;second&quot;: &quot;1e690bd3-64b7-427a-8394-c316432ff0a3&quot;
     }
   ],
-  "modificationCount": 6
-}]]></component>
+  &quot;modificationCount&quot;: 6
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2d3cacaf-d9c2-4ca5-a84c-cf4de66b0c92" name="Changes" comment="" />
@@ -121,6 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1791748119752</updated>
       <workItem from="1791748120765" duration="624000" />
+      <workItem from="1792002936595" duration="7000" />
+      <workItem from="1792004101312" duration="2678000" />
     </task>
     <servers />
   </component>

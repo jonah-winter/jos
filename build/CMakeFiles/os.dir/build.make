@@ -76,12 +76,18 @@ exe/os.img: exe/kernel.bin
 	dd if=/Users/jonah/Github/os/build/exe/kernel.bin of=/Users/jonah/Github/os/build/exe/os.img bs=512 seek=1 conv=notrunc
 
 exe/boot.bin: /Users/jonah/Github/os/src/boot/boot.asm
+exe/boot.bin: exe/kernel_sectors.inc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jonah/Github/os/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating exe/boot.bin"
-	/opt/homebrew/bin/nasm -f bin /Users/jonah/Github/os/src/boot/boot.asm -o /Users/jonah/Github/os/build/exe/boot.bin
+	/opt/homebrew/bin/nasm -I /Users/jonah/Github/os/build/exe/ -f bin /Users/jonah/Github/os/src/boot/boot.asm -o /Users/jonah/Github/os/build/exe/boot.bin
 
 exe/kernel.bin: exe/kernel.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jonah/Github/os/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating exe/kernel.bin"
 	i686-elf-objcopy -O binary /Users/jonah/Github/os/build/exe/kernel.elf /Users/jonah/Github/os/build/exe/kernel.bin
+
+exe/kernel_sectors.inc: exe/kernel.bin
+exe/kernel_sectors.inc: /Users/jonah/Github/os/cmake/GenerateKernelSectors.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/jonah/Github/os/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating exe/kernel_sectors.inc"
+	/opt/homebrew/bin/cmake -DKERNEL_BIN=/Users/jonah/Github/os/build/exe/kernel.bin -DOUTPUT_FILE=/Users/jonah/Github/os/build/exe/kernel_sectors.inc -P /Users/jonah/Github/os/cmake/GenerateKernelSectors.cmake
 
 CMakeFiles/os.dir/codegen:
 .PHONY : CMakeFiles/os.dir/codegen
@@ -89,6 +95,7 @@ CMakeFiles/os.dir/codegen:
 os: CMakeFiles/os
 os: exe/boot.bin
 os: exe/kernel.bin
+os: exe/kernel_sectors.inc
 os: exe/os.img
 os: CMakeFiles/os.dir/build.make
 .PHONY : os
